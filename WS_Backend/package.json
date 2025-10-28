@@ -1,0 +1,28 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -b && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prantor-Das/WebSocket.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prantor-Das/WebSocket/issues"
+  },
+  "homepage": "https://github.com/Prantor-Das/WebSocket#readme",
+  "type": "module",
+  "devDependencies": {
+    "@types/ws": "^8.18.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  }
+}
